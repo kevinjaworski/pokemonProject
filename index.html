@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vivid Voltage Pack Opener</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    <!-- MANUAL CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <h1 id="openHeader">
+        <img class="mainLogo" src="https://f.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/GetAttachmentThumbnail-1.png" >
+    </h1>
+
+    <hr>
+
+    <form>
+            <button class="buttons" id="refreshPage">Clear the Table</button>
+            <button class="buttons" id="openPack">Open a Pack!</button>
+    </form>
+
+    <hr>
+    <div id="startContainer">
+    <div id="startInfo">
+        Welcome to the Vivid Voltage Pack Opener! <br>
+        This app is inspired by MaxMoeFoe's Pokemon series, and allows you to open a virtual Vivid Voltage Booster Pack. <br><br>
+        To make things a bit more interesting, seeding rates have been adjusted. <br>
+        <br>
+        Rough odds of pulling at least one per pack of 10:
+        <br><br>
+        <table>
+        <tr>
+            <th>Rarity</th>
+            <th>Odds</th>
+        </tr>
+        <tr>
+            <td>Common</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Uncommon</td>
+            <td>99%</td>
+        </tr>
+        <tr>
+            <td>Rare</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>Rare Holo</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Ultra Rare</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>Amazing Rare</td>
+            <td>1%</td>
+        </tr>
+        <tr>
+            <td>Secret Rare / Rainbow Rare</td>
+            <td>5%</td>
+        </tr>
+        </table>
+
+        </div>
+    </div>
+    <div id="cardLanding">
+        <ul id="cardLandingList">
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+:root {
+    --purple : #1b0f46;
+}
+
+#openHeader {
+    color : red;
+}
+
+body{
+    background-color: rgb(169, 226, 169);
+}
+
+form{
+    margin: auto;
+    width: 7%;
+}
+
+.buttons{
+    margin: auto;
+    border-radius: 10%;
+    background-color: darkgrey;
+}
+
+h1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    column-count: 5;
+    column-gap: 10px;
+    list-style-type: none;
+}
+
+li{
+    font: 'Gill Sans Bold';
+    font-size: large;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
+#cardLanding{
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+article{
+    text-align: center;
+    border: 3px solid var(--purple);
+    padding: 1px;
+    border-radius: 10%;
+}
+
+img{
+    height: 310px;
+    padding-bottom: 10px;
+}
+
+#rarityTable{
+    column-count: 1;
+    list-style-type: square;
+}
+
+#rarityList{
+    font: 'Gill Sans Bold';
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.clearfix{
+    overflow: auto;
+    height: 30px;
+}
+
+.shortDivider{
+    height:10px;
+}
+
+table{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    padding: 2px;
+    border-spacing: 5px;
+}
+
+#startContainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
