@@ -102,7 +102,7 @@ function fetchCard(selectOne){
     fetch(`${baseURL}${selectOne}`)
         .then(responseObj => responseObj.json())
         .then(jsonData => displayCards(jsonData))
-        .then (sleep(85));                         
+        .then (sleep(120));                         
     }
 
 
